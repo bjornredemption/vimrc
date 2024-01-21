@@ -1,5 +1,5 @@
 "colorscheme slate
-colorscheme  slate
+colorscheme monokai
 filetype on
 filetype plugin on
 filetype indent on
@@ -80,8 +80,17 @@ Plug 'ervandew/supertab'
     " our wiki page for a list of sources: https://github.com/ncm2/ncm2/wiki
     Plug 'ncm2/ncm2-bufword'
     Plug 'ncm2/ncm2-path'
- 
- call plug#end()
+
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
 
 " }}}
 
+
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm(): "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+inoremap <silent><expr> <c-@> coc#refresh()
