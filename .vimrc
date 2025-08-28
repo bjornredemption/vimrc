@@ -10,7 +10,9 @@ syntax on
 set number
 
 " edit  cccccc
-" 55555
+" abc
+
+>>>>>>> 7dbf6b384525d55cd65b46e4bfc0e25ee7734869
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
