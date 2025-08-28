@@ -23,8 +23,6 @@ set tabstop=4
 " Use space characters instead of tabs.
 set expandtab
 
-
-
 " Do not save backup files.
 set nobackup
 
