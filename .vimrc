@@ -8,9 +8,9 @@ filetype plugin on
 filetype indent on
 syntax on
 set number
-
+   
 " edit  cccccc
-" abc kkkk
+" abc kkkk  
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
