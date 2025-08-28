@@ -11,6 +11,7 @@ set number
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
 
+" Test comments
 " Highlight cursor line underneath the cursor vertically.
 " set cursorcolumn
 
