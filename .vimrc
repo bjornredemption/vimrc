@@ -12,11 +12,9 @@ set number
 " edit  cccccc
 " abc kkkk
 
->>>>>>> 7dbf6b384525d55cd65b46e4bfc0e25ee7734869
-
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
-
+" sfdsfs
 " Test comments
 " Highlight cursor line underneath the cursor vertically.
 " set cursorcolumn
