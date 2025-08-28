@@ -10,6 +10,7 @@ syntax on
 set number
 
 " edit  cccccc
+" abc
 
 
 " Highlight cursor line underneath the cursor horizontally.
