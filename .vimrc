@@ -9,7 +9,7 @@ filetype indent on
 syntax on
 set number
 
-
+" editor
 
 
 " Highlight cursor line underneath the cursor horizontally.
