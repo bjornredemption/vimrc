@@ -9,6 +9,9 @@ filetype indent on
 syntax on
 set number
 
+
+
+
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
 
